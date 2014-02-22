@@ -192,9 +192,6 @@ midi_recording_quantization_steps = [0, 1, 2, 5, 8]
 midi_mapping = {
 	
 	"select_playing_clip": CC(45, ABSOLUTE), # highlights clipslot with currently playing clip 
-	"toggle_detail": CC(46, ABSOLUTE),
-	"toggle_detail_clip_device": Note(77),
-	"toggle_detail_clip": Note(78),
-	"toggle_detail_device": Note(79),
+	"toggle_detail_clip_device": CC(46),
 
 }
